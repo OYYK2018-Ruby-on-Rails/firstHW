@@ -1,6 +1,5 @@
 class School
-    attr_accessor :name
-    attr_accessor :city
+    attr_reader :name, :city
 
     def initialize(name,city)
         @name = name
